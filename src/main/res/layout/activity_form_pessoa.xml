@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".FormPessoa">
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"/>
+
+    <EditText
+        android:id="@+id/editIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/editTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnVariavel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
